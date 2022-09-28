@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Digital and analog clock</title>
+</head>
+<body>
+    <div class="container">
+        <div class="clock">
+            <!-- CLOCK HANDS -->
+            <div style="--bg-hand:#04fc43;" class="circle" id="sc"><i></i></div>
+            <div style="--bg-hand:#fee800;" class="circle circle2" id="mn"><i></i></div>
+            <div style="--bg-hand:#ff2972;" class="circle circle3" id="hr"><i></i></div>
+            <!-- ANALOG CLOCK NUMBERS -->
+            <span style="--number:1;"><b>1</b></span>
+            <span style="--number:2;"><b>2</b></span>
+            <span style="--number:3;"><b>3</b></span>
+            <span style="--number:4;"><b>4</b></span>
+            <span style="--number:5;"><b>5</b></span>
+            <span style="--number:6;"><b>6</b></span>
+            <span style="--number:7;"><b>7</b></span>
+            <span style="--number:8;"><b>8</b></span>
+            <span style="--number:9;"><b>9</b></span>
+            <span style="--number:10;"><b>10</b></span>
+            <span style="--number:11;"><b>11</b></span>
+            <span style="--number:12;"><b>12</b></span>
+        </div>
+        <!-- DIGITAL CLOCK -->
+        <div class="time">
+            <div style="--bg-hand:#ff2972" id="hour"></div>
+            <div style="--bg-hand:#fee800;" id="minutes"></div>
+            <div style="--bg-hand:#04fc43;" id="seconds"></div>
+            <div id="am-pm"></div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
